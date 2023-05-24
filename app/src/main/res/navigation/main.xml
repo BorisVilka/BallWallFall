@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/startFragment">
+
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="com.ballfallwall.app.StartFragment"
+        android:label="fragment_start"
+        tools:layout="@layout/fragment_start" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.ballfallwall.app.SettingsFragment"
+        android:label="SettingsFragment" />
+    <fragment
+        android:id="@+id/scoreFragment"
+        android:name="com.ballfallwall.app.ScoreFragment"
+        android:label="ScoreFragment" />
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.ballfallwall.app.GameFragment"
+        android:label="fragment_game"
+        tools:layout="@layout/fragment_game" />
+</navigation>
